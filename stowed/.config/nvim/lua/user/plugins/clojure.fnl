@@ -7,7 +7,8 @@
    {:ft :clojure
     :cmd :Clj
     :lazy true})
-
+(uu.tx :tpope/vim-dispatch
+       {:lazy false})
  (uu.tx
    :williamboman/mason-lspconfig.nvim
    {:opts (fn [_ opts]
